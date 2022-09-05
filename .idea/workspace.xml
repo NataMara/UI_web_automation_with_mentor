@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2be89deb-ee55-455b-a0a1-04dd61df9c00" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web_automation_project/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/web_automation_project/Helpers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/web_automation_project/DefaultFilterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/web_automation_project/PriceFieldValidationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Smoke.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme" beforeDir="false" afterPath="$PROJECT_DIR$/Readme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/web_automation_project/AutoNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web_automation_project/AutoNames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web_automation_project/AutoNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web_automation_project/AutoNamesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/web_automation_project/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web_automation_project/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/web_automation_project/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web_automation_project/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/web_automation_project/DefaultFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web_automation_project/DefaultFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web_automation_project/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/web_automation_project/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web_automation_project/DefaultFilter.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +39,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2DsgiPI9lI1bKbfjb2axfbLHKe4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,18 +58,26 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AutoNames">
-    <configuration name="AutoNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.web_automation_project.AutoNames" />
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.web_automation_project" />
+      <recent name="com" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.AutoNamesTest">
+    <configuration name="DefaultFilterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.web_automation_project.DefaultFilterTest" />
       <module name="UI_web_automation_with_mentor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.web_automation_project.*" />
+          <option name="PATTERN" value="com.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,8 +85,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefaultFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.web_automation_project.DefaultFilter" />
+    <configuration name="AutoNamesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UI_web_automation_with_mentor" />
       <extension name="coverage">
         <pattern>
@@ -71,27 +93,67 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.web_automation_project" />
+      <option name="MAIN_CLASS_NAME" value="com.web_automation_project.AutoNamesTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="AutoNamesTest.category_name" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UI_web_automation_with_mentor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.web_automation_project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.web_automation_project" />
+      <option name="MAIN_CLASS_NAME" value="com.web_automation_project.AutoNamesTest" />
+      <option name="METHOD_NAME" value="category_name" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+    <configuration name="DefaultFilterTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UI_web_automation_with_mentor" />
-      <option name="filePath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.web_automation_project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.web_automation_project" />
+      <option name="MAIN_CLASS_NAME" value="com.web_automation_project.DefaultFilterTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/nmary/IdeaProjects/untitled/src/test/resources/Smoke.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UI_web_automation_with_mentor" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/Smoke.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AutoNames" />
-        <item itemvalue="Application.DefaultFilter" />
+        <item itemvalue="TestNG.AutoNamesTest" />
+        <item itemvalue="TestNG./Users/nmary/IdeaProjects/untitled/src/test/resources/Smoke.xml" />
+        <item itemvalue="TestNG.AutoNamesTest.category_name" />
+        <item itemvalue="TestNG.DefaultFilterTest" />
+        <item itemvalue="Application.DefaultFilterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -104,7 +166,19 @@
       <option name="presentableId" value="Default" />
       <updated>1661493336727</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1661501272545</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661501272545</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
